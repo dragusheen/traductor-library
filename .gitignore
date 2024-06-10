@@ -1,0 +1,7 @@
+.vscode/
+*.o
+object/
+libTraductor.a
+main.cpp
+test
+*.trad
