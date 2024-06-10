@@ -7,36 +7,35 @@ Traductor is a C++ library designed to facilitate language translation within yo
 
 ## Summary 📝
 
-- [Overview](#overview)
-- [Installation](#installation)
-- [Example](#example)
-- [API Documentation](#api-documentation)
-- [License](#license)
-- [Contributing](#contributing)
-- [Authors](#authors)
+- [Installation](#-installation): Find instructions on how to install and build the library.
+- [Usage](#-usage): Explore examples and code snippets to get started with Traductor.
+- [Documentation](#-documentation): Dive into detailed documentation of the Traductor class and its methods.
+- [Contributing](#-contributing): Contribute to the development of Traductor by submitting enhancements or bug fixes.
+- [License](#-license): Understand the terms of use and licensing for the Traductor Library.
+- [Authors](#-authors): Meet the creators behind Traductor.
 
 <br>
 <br>
 
-## Installation 🛠️
+## 🛠️ Installation
 
 To use Traductor in your project, simply include the `Traductor.hpp` header file and link against the `libTraductor.a` static library.
 
 <br>
 <br>
 
-### Prerequisites 📋
+### 📋 Prerequisites
 
 - C++17 compiler
 
 <br>
 
-### Building from source 🏗️
+### 🏗️ Building from source
 
 1. Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/dragusheen/traductor-library
     ```
 
 <br>
@@ -52,11 +51,15 @@ To use Traductor in your project, simply include the `Traductor.hpp` header file
 
 <br>
 
-3. Link against the library in your project.
+This will create a static library named `libtraductor.a`.
 
 <br>
 
-## Example 📝
+## 🚀 Usage
+
+Include the Traductor header in your project and link against the `libtraductor.a` library.
+
+### Example
 
 Here's a simple example demonstrating how to use Traductor:
 
@@ -90,7 +93,7 @@ g++ -o example example.cpp -I./include -L./ -ltraductor
 <br>
 <br>
 
-## Documentation 📚
+## 📚 Documentation
 
 ### `class Traductor`
 
