@@ -11,7 +11,7 @@ SRC		=   src/Traductor.cpp			\
 
 OBJ 	= 	$(patsubst src/%.cpp,object/%.o,$(SRC))
 
-NAME	=	Traductor
+NAME	=	traductor
 
 FLAGS	=	-Wall 	\
 			-Wextra	\
